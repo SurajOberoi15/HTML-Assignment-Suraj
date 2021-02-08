@@ -1,0 +1,207 @@
+<html>
+    <head>
+        <style>
+            ul#menu li {
+            display:inline;
+            margin: 100px;
+            font-size: 30px;
+            }
+
+
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                text-align: center;
+                font-size: 20px;
+                }
+
+            form{
+                border: 1px solid black;
+            }
+
+            .in-div{
+                margin-left: 70px;
+                font-size: 20px;
+            }
+
+            .top-most{
+                margin-top: 50px;
+                margin-left: 50px;
+                margin-right: 50px;
+
+            }
+            </style>
+    
+    
+        <title>Assignment</title>
+        
+        <div>
+
+        <div>
+            <img src="w3schoolsLOGO.JPG" alt="w3School.com" width="300" height="55">  THE WORLD'S LARGEST WEBDEVELOPER SITE
+        </div>
+    
+    
+        <hr>
+    
+        </div>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="https://www.w3schools.com/html/default.asp"> Html </a>
+                
+                <li>
+                    <a href="https://www.w3schools.com/css/default.asp"> CSS </a>
+
+                </li>
+
+
+                <li>
+                    <a href="https://www.w3schools.com/python/default.asp"> Python </a>
+                </li>
+
+
+                <li>
+                    <a href="https://www.w3schools.com/js/default.asp"> JavaSript </a>
+                </li>
+
+            </ul>
+        </nav>
+        <hr>
+
+    </head>
+
+    <body>
+
+                   
+            <div class="top-most">
+
+                
+        <h1>HTML introduction</h1>
+
+        <p><h3> HTML is the standard markup language for Web pages. </h3> </p>
+
+        <ol class="in-div">
+            
+            <li><a href="#html1"> What is HTML </a>  </li>
+            <li><a href="#html2"> What is HTML element </a>  </li>
+            <li><a href="#html3">Web Browsers</a> </li>
+            
+        </ol>
+        
+        <h1 id="html1">What is HTML?</h1>
+
+        <ul class="in-div">
+            
+           <li>HTML stands for Hyper Text Markup Language</li>
+           <li>HTML is the standard markup language for creating Web pages</li>
+           <li>HTML describes the structure of a Web page</li>
+           <li>HTML consists of a series of elements</li>
+           <li>HTML elements tell the browser how to display the content</li>
+           <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+        
+        </ul>
+        
+        <h1 id="html2">What is HTML element</h1>
+
+        <div class="in-div">
+        <p>
+        
+            The HTML element is everything from the start tag to the end tag:
+            <br>
+            &lttagname&gtContent goes here...&lt/tagname&gt
+            <br>
+            <br>
+            Examples of some HTML elements:
+            <br>
+            <br>
+            <span>&lt</span>h1&gt"My First Heading"&lt/h1&gt <br>
+            &ltp&gt"My first paragraph."&lt/p&gt
+        
+        </p>
+        </div>
+
+        <h2>Basic HTML Table</h2>
+
+        <table style="width:100%">
+        <tr>
+            <th>Start Tag</th>
+            <th>Element Content</th> 
+            <th>End Tag</th>
+        </tr>
+        <tr>
+            <td>&lth1&gt </td>
+            <td>&ltMy First Heading&gt</td>
+            <td>&lt/h1&gt</td>
+        </tr>
+        <tr>
+            <td>&ltp&gt</td>
+            <td>&ltMy first paragraph&gt</td>
+            <td>&lt/p&gt</td>
+        </tr>
+        <tr>
+            <td>&ltbr&gt</td>
+            <td>none</td>
+            <td>none</td>
+        </tr>
+        </table>
+
+        <br/>
+        <hr>
+        <br/>
+
+        <h1 id="html3">What is a web browser</h1>
+
+        <div class="in-div">
+          <p>
+            The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.
+            <br>
+            <br>
+            A browser does not display the HTML tags, but uses them to determine how to display the document:
+            <br>
+            <br>
+            <img src ="img_chrome.png">
+          </p>
+        </div>
+
+
+        <h2>Submit your review here</h2>
+        
+        <div class="form">
+        <form method="POST"  action="#" >
+            <br/>
+            Name :
+            <input type="text"/>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label> 
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label> 
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            <br/><br>   
+                <label for="rate">rate it:</label>
+                <select id="rate" name="rating">
+                    <option value="very good">very good</option>
+                    <option value="good">good</option>
+                    <option value="bad">bad</option>
+                    <option value="average">average</option>
+                </select>
+                <br/>
+            Description : <br />
+            <textarea rows = "5" cols = "50" name = "description">Enter description here...</textarea>
+            <br/>
+            <br/>
+            <br/>
+            <button> Submit </button>
+            <br/>
+            <br/>
+
+
+        </form>
+
+        </div>
+
+
+            </div>
+    </body>
+</html>
