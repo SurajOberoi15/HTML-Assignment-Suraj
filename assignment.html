@@ -5,9 +5,21 @@
             display:inline;
             margin: 100px;
             font-size: 30px;
+            text-align: center;
+            margin-left: 150px;
+            font-family: "Segoe UI",Arial,sans-serif;
             }
-
-
+            #heading {
+                float: right;
+                letter-spacing: 4px;
+                margin-top: 40px;
+                margin-right: 40px;
+                font-size: 20px;
+            }
+            #Form-heading{
+                margin-left: 40px;
+                margin-top: 40px;
+            }
             table, th, td {
                 border: 1px solid black;
                 border-collapse: collapse;
@@ -17,6 +29,12 @@
 
             form{
                 border: 1px solid black;
+                font-family: "Segoe UI",Arial,sans-serif;
+                border-radius: 5px;
+                padding-left: 10px;
+                font-weight: 400;
+                margin-left: 40px;
+                margin-right: 40px;
             }
 
             .in-div{
@@ -36,15 +54,18 @@
         <title>Assignment</title>
         
         <div>
-
+        <section>
         <div>
-            <img src="w3schoolsLOGO.JPG" alt="w3School.com" width="300" height="55">  THE WORLD'S LARGEST WEBDEVELOPER SITE
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/W3Schools_logo.png" alt="logo" width="260px" height="100px">
+            <div id="heading">
+                THE WORLD'S LARGEST WEB DEVELOPER WEBSITE
+            </div>
         </div>
-    
-    
         <hr>
-    
         </div>
+    </section>
+
+    <section>
         <nav>
             <ul id="menu">
                 <li>
@@ -54,29 +75,24 @@
                     <a href="https://www.w3schools.com/css/default.asp"> CSS </a>
 
                 </li>
-
-
                 <li>
                     <a href="https://www.w3schools.com/python/default.asp"> Python </a>
                 </li>
-
-
                 <li>
                     <a href="https://www.w3schools.com/js/default.asp"> JavaSript </a>
                 </li>
-
             </ul>
         </nav>
         <hr>
-
     </head>
+</section>
 
-    <body>
 
+<body>
+    <section>
                    
             <div class="top-most">
 
-                
         <h1>HTML introduction</h1>
 
         <p><h3> HTML is the standard markup language for Web pages. </h3> </p>
@@ -163,11 +179,12 @@
             <img src ="img_chrome.png">
           </p>
         </div>
+</section>
 
-
-        <h2>Submit your review here</h2>
+<section>
+        <h2 id="Form-heading">Submit your review here</h2>
         
-        <div class="form">
+    <div class="form">
         <form method="POST"  action="#" >
             <br/>
             Name :
@@ -195,13 +212,8 @@
             <button> Submit </button>
             <br/>
             <br/>
-
-
         </form>
-
-        </div>
-
-
-            </div>
+    </div>
+    </section>
     </body>
 </html>
